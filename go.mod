@@ -1,4 +1,4 @@
-module example.com/hello
+module github.com/zhengjilei/hello
 
 go 1.12
 
