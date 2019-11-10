@@ -8,5 +8,5 @@ func Hello() string {
 }
 
 func Proverb() string {
-    return quote.Concurrency() + + " hello / v2"
+    return quote.Concurrency() +  " hello / v2"
 }
