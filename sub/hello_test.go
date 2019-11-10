@@ -1,4 +1,4 @@
-package hello
+package sub
 
 import (
     "testing"
@@ -18,16 +18,3 @@ func TestProverb(t *testing.T) {
     }
 }
 
-func TestCallV2(t *testing.T){
-	want := "Hello, world. hello / v2"
-    if got := CallV2(); got != want {
-        t.Errorf("CallV2() = %q, want %q", got, want)
-    }
-}
-
-func TestCallV3(t *testing.T){
-	want := "Hello, world. hellov3"
-    if got := CallV3(); got != want {
-        t.Errorf("CallV3() = %q, want %q", got, want)
-    }
-}
